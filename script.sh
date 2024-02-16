@@ -4,7 +4,7 @@
 git config --global user.email "malikayra85@gmail.com"
 git config --global user.name "iqramalik85"
 
-git clone https://github.com/iqramalik85/iqra.git
+git remote set-url origin git@github.com/iqramalik85/iqra.git
 cd iqra
 
 # Read content of file-B

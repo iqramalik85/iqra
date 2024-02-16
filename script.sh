@@ -4,12 +4,10 @@
 git config --global user.email "malikayra85@gmail.com"
 git config --global user.name "iqramalik85"
 
-
-# Read content of file-B
 replacement=$(cat file-B)
 
 # Perform search and replace in file-A
-sed -i "s/domains/$replacement/g" file-A
+sed -i "s#domains#$replacement#g" file-A
 
 # Commit changes
 git add file-A

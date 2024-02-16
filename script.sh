@@ -9,4 +9,4 @@ sed -i "s/domains/$replacement/g" file-A
 # Commit changes
 git add file-A
 git commit -m "Replace 'domains' with data from file-B"
-git push origin main
+git push origin master

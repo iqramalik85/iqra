@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Set Git user email and name
+git config --global user.email "malikayra85@gmail.com"
+git config --global user.name "iqramalik85"
+
+
 # Read content of file-B
 replacement=$(cat file-B)
 

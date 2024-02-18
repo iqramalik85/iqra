@@ -1,4 +1,5 @@
-hello my name is domain.. and i work in domain
-my email is domain
-domain
-domain
+Product Title: ${PRODUCT_TITLE}
+Endpoint Title: ${ENDPOINT_TITLE}
+Index Pattern: ${INDEX_PATTERN}
+Domains: ${DOMAINS}
+Request URI: ${REQUEST_URI}
